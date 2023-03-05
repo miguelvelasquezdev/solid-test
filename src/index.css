@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --theme-bg: #fdfeff;
+}
+
+:root.theme-dark {
+  color-scheme: dark;
+  --theme-bg: hsla(215, 28%, 17%, 1);
+}
+
+body {
+  background: var(--theme-bg);
+}
